@@ -1,0 +1,26 @@
+{
+    "name": "sandortibor89/simplecache",
+    "description": "Simple PSR-16 PHP cache",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tibor Sándor",
+            "email": "tibikeh@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/simple-cache": "1.0.1"
+    },
+    "autoload": {
+       "psr-4": {
+           "SimpleCache\\": "src/"
+       }
+   },
+   "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/sandortibor89/simplecache.git"
+        }
+    ]
+}
